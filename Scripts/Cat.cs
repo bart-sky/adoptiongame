@@ -51,14 +51,14 @@ public class Cat : MonoBehaviour
         {
             rigidcat.AddForce(Vector2.left * move, ForceMode2D.Force); //adding the force (left) with an amplitude of move (the variable move)
           GetComponent<SpriteRenderer>().sprite = catL; // giving the sprite renderer's sprite the left sprite picture
-          GetComponent<SpriteRenderer>().flipX = false; // setting the sprite renderer's flipX value to false to make sure the Cat's sprite is facing left
+          // GetComponent<SpriteRenderer>().flipX = false; // setting the sprite renderer's flipX value to false to make sure the Cat's sprite is facing left
 
         }
         if (Input.GetKey(KeyCode.RightArrow))//detecting right arrow button
         {
             rigidcat.AddForce(Vector2.right * move, ForceMode2D.Force); // adding the force (right) with an amplitude of move (the variable move)
            GetComponent<SpriteRenderer>().sprite = catR; //  giving the sprite renderer's sprite the right sprite picture
-           GetComponent<SpriteRenderer>().flipX=true; // / setting the sprite renderer's flipX value to true to make sure the Cat's sprite is facing right
+           // GetComponent<SpriteRenderer>().flipX=false; // / setting the sprite renderer's flipX value to true to make sure the Cat's sprite is facing right
 
 
         }
@@ -67,7 +67,7 @@ public class Cat : MonoBehaviour
 
             rigidcat.AddForce(Vector2.up * move, ForceMode2D.Force); 
             GetComponent<SpriteRenderer>().sprite = catUp; // giving the sprite renderer's sprite the up sprite picture
-            GetComponent<SpriteRenderer>().flipX = false; 
+            // GetComponent<SpriteRenderer>().flipX = false; 
 
         }
         if (Input.GetKey(KeyCode.DownArrow)) // detecting down arrow button
@@ -75,7 +75,7 @@ public class Cat : MonoBehaviour
 
             // rigidcat.AddForce(Vector2.down * move, ForceMode2D.Force);
             GetComponent<SpriteRenderer>().sprite = catDwn; // giving the sprite renderer's sprite the down sprite picture
-            GetComponent<SpriteRenderer>().flipX = false;
+            // GetComponent<SpriteRenderer>().flipX = false;
 
         }
         if (Input.GetKey(KeyCode.Space)) // detecting spacebar button
