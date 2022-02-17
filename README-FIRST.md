@@ -1,8 +1,7 @@
 # adoptiongame
 
 # LINK TO THE GOOGLE DRIVE WITH THE GAME FILES :: 
-https://drive.google.com/drive/folders/1q9sBJLL8UhiZmzrJkxP_PY0T9uiIBLZ8
-
+https://drive.google.com/drive/u/1/folders/1VGxIel0uaLwRCy-dIPJg7rh8mpWkZa91
 
 
 
