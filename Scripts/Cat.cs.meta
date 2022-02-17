@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a47ce8407d67fc14bb726efbc36107b5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - catL: {fileID: 21300000, guid: f70b9432ce77fd546a8b60fc78468d55, type: 3}
+  - catR: {fileID: 21300000, guid: 0be28eb0a8492844895b2f3108ecfd7c, type: 3}
+  - catUp: {fileID: 21300000, guid: 48b684e0521b0064ab68bfd64328329d, type: 3}
+  - catDwn: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
